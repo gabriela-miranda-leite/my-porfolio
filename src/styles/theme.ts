@@ -7,6 +7,5 @@ export default {
     textDark: '#333333',
     text: '#E6E6E6',
     background: '#092132',
-    border: '#5026D1',
   },
 };
