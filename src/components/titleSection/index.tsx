@@ -1,10 +1,15 @@
 import * as S from './styles';
 
-export const TitleSection = () => {
+interface TitleProps {
+  title: string;
+}
+
+export const TitleSection = ({title}: TitleProps) => {
   return (
     <S.Container>
-      <S.SquareBlue />
       <S.SquareGrey />
+      <S.SquareBlue />
+      <S.Title>{title}</S.Title>
     </S.Container>
   );
 };
