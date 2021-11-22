@@ -1,8 +1,8 @@
 import type {NextPage} from 'next';
-import {TitleSection} from '../components/titleSection';
+import {AnimationBanner} from '../components/animationBanner';
 
 const Pages: NextPage = () => {
-  return <TitleSection title="PROJETOS" />;
+  return <AnimationBanner />;
 };
 
 export default Pages;
