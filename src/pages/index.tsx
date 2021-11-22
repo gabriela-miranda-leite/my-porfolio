@@ -1,7 +1,8 @@
 import type {NextPage} from 'next';
+import {TitleSection} from '../components/titleSection';
 
 const Pages: NextPage = () => {
-  return <h1>Teste dnv</h1>;
+  return <TitleSection title="PROJETOS" />;
 };
 
 export default Pages;
