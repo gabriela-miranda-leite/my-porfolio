@@ -1,8 +1,14 @@
 import type {NextPage} from 'next';
-import {AnimationBanner} from '../components/animationBanner';
+import {Portfolio} from '../components/section/portfolio';
+import {WhoIAm} from '../components/section/whoIAm';
 
 const Pages: NextPage = () => {
-  return <AnimationBanner />;
+  return (
+    <>
+      <Portfolio />
+      <WhoIAm />
+    </>
+  );
 };
 
 export default Pages;
