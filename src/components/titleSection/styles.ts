@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 3rem;
-  height: 3rem;
-  position: absolute;
+  width: 100%;
   display: flex;
+`;
+
+export const SquaresContainer = styled.div`
+  position: relative;
 `;
 
 export const SquareGrey = styled.div`
@@ -15,7 +17,7 @@ export const SquareGrey = styled.div`
 
 export const SquareBlue = styled.div`
   position: absolute;
-  right: 0.75rem;
+  left: 0.75rem;
   top: 0.75rem;
   height: 1.5rem;
   width: 1.5rem;
@@ -23,11 +25,9 @@ export const SquareBlue = styled.div`
 `;
 
 export const Title = styled.h3`
-  position: absolute;
+  padding-left: 2rem;
   font-weight: 500;
   font-family: 'Ubuntu';
   font-size: 2.2rem;
   color: ${({theme}) => theme.colors.text};
-  left: 3.5rem;
-  top: 0rem;
 `;
