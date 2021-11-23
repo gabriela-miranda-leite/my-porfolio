@@ -12,6 +12,10 @@ export const Button = styled.button`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+
+  @media (min-width: 530px) {
+    display: none;
+  }
 `;
 
 export const Bar = styled.div`
