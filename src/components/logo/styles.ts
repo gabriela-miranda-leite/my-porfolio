@@ -10,10 +10,11 @@ export const Container = styled.div`
   justify-content: flex-end;
 
   @media (min-width: 750px) {
-    width: 38rem;
+    width: 39rem;
     height: 15rem;
   }
-  @media (min-width: 750px) {
+
+  @media (min-width: 1170px) {
     width: 49rem;
     height: 19rem;
   }

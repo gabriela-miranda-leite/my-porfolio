@@ -1,9 +1,10 @@
 import type {NextPage} from 'next';
+import {Logo} from '../components/logo';
 
 const Pages: NextPage = () => {
   return (
     <>
-      <h1>teste</h1>
+      <Logo />
     </>
   );
 };
