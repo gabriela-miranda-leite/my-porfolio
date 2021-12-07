@@ -24,6 +24,7 @@ export const Title = styled.h1`
   font-family: 'Ubuntu';
   font-weight: 500;
   font-size: 4rem;
+  border-bottom: 3px dashed ${({theme}) => theme.colors.text};
 
   @media (min-width: 750px) {
     font-size: 8rem;
