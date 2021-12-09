@@ -21,7 +21,6 @@ export const Container = styled.div`
 
 export const List = styled.ul`
   display: flex;
-  gap: 15rem;
   list-style: none;
 
   li {
@@ -37,9 +36,17 @@ export const List = styled.ul`
       background: linear-gradient(
         270deg,
         ${({theme}) => theme.colors.text} 0%,
-        #17161d 100%
+        ${({theme}) => theme.colors.textDark} 100%
       );
       animation: ${animationLine} 0.3s ease-in-out;
     }
+  }
+
+  @media (min-width: 600px) {
+    gap: 5rem;
+  }
+
+  @media (min-width: 1070px) {
+    gap: 15rem;
   }
 `;

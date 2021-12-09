@@ -9,7 +9,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: flex-end;
 
-  @media (min-width: 750px) {
+  @media (min-width: 600px) {
     width: 39rem;
     height: 15rem;
   }
@@ -26,11 +26,11 @@ export const Title = styled.h1`
   font-size: 4rem;
   border-bottom: 3px dashed ${({theme}) => theme.colors.text};
 
-  @media (min-width: 750px) {
+  @media (min-width: 600px) {
     font-size: 8rem;
   }
 
-  @media (min-width: 1170px) {
+  @media (min-width: 1070px) {
     font-size: 10rem;
   }
 `;
@@ -43,7 +43,7 @@ export const Square = styled.div`
   position: absolute;
   bottom: 0%;
 
-  @media (min-width: 1170px) {
+  @media (min-width: 1070px) {
     height: 1.5rem;
     width: 1.5rem;
   }
