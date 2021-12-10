@@ -3,13 +3,17 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-items: stretch;
-  margin-left: 2rem;
+  padding-bottom: 1.5rem;
+
+  @media (min-width: 600px) {
+    padding-bottom: 2.5rem;
+  }
 `;
 
 export const Icon = styled.div`
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: flex-start;
 
   position: relative;
 
