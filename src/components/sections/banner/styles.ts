@@ -2,10 +2,13 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
-  padding: 5rem 3rem;
+  padding: 5rem 3rem 10rem;
+
+  @media (min-width: 750px) {
+    padding: 8rem;
+  }
 
   @media (min-width: 1070px) {
     padding: 0;
@@ -45,9 +48,8 @@ export const Content = styled.div`
     align-items: center;
     justify-content: center;
     max-width: 136.6rem;
-    gap: 10rem;
-    padding: 0 10rem;
     margin: auto;
+    gap: 5rem;
   }
 `;
 

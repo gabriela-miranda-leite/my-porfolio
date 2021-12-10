@@ -25,7 +25,7 @@ export const Space = styled.img`
     width: 40rem;
   }
 
-  @media (min-width: 1070px) {
+  @media (min-width: 1200px) {
     width: 60rem;
   }
 `;
@@ -50,7 +50,7 @@ export const Rocket = styled.img`
     top: 15rem;
   }
 
-  @media (min-width: 1070px) {
+  @media (min-width: 1200px) {
     width: 35rem;
     left: 15rem;
     top: 20rem;
