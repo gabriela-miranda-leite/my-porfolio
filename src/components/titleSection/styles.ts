@@ -46,12 +46,11 @@ export const SquareGrey = styled(SquareBlue)`
 `;
 
 export const Title = styled.h3`
-  margin-left: 1rem;
   font-family: 'Ubuntu';
   font-weight: 500;
   font-size: 2rem;
 
-  @media (min-width: 400px) {
+  @media (min-width: 350px) {
     font-size: 2.4rem;
   }
 
