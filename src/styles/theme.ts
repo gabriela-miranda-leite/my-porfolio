@@ -7,5 +7,6 @@ export default {
     textDark: '#333333',
     text: '#E6E6E6',
     background: '#092132',
+    knowledge: '#3F3D56',
   },
 };
