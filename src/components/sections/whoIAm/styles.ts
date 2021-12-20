@@ -55,7 +55,7 @@ export const Clouds = styled.img`
   animation: ${animationCloud} 1.5s infinite alternate-reverse;
 `;
 
-export const Text = styled.p`
+export const Text = styled.div`
   font-size: 1.8rem;
 
   @media (min-width: 750px) {
@@ -64,5 +64,12 @@ export const Text = styled.p`
 
   @media (min-width: 1070px) {
     font-size: 2.4rem;
+  }
+`;
+
+export const TextContent = styled.div`
+  @media (min-width: 1070px) {
+    display: flex;
+    flex-direction: column;
   }
 `;
