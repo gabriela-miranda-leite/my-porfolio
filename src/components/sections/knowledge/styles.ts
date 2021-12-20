@@ -28,6 +28,7 @@ export const Content = styled.div`
 export const Logo = styled.img`
   width: 6rem;
   height: 6rem;
+  cursor: pointer;
 
   @media (min-width: 750px) {
     width: 8rem;
@@ -63,9 +64,11 @@ export const GridLogos = styled.ul`
 
     li {
       padding: 2rem;
+	    transition: 0.3s ease;
 
       &:hover {
-        filter: drop-shadow(0 0 1rem ${({theme}) => theme.colors.text});
+        transform: rotateY(180deg);
+        opacity: 0.4;
       }
     }
 `;
