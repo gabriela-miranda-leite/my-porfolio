@@ -2,7 +2,11 @@ import * as S from './styles';
 
 export const Footer = () => {
   const dataSocial = [
-    {img: 'assets/logos/logo-discord.png', alt: 'Logo Discord', link: ''},
+    {
+      img: 'assets/logos/logo-gitlab.png',
+      alt: 'Logo Gitlab',
+      link: 'https://gitlab.com/gabrielamiranda11.10',
+    },
     {
       img: 'assets/logos/logo-linkedin.png',
       alt: 'Logo Linkedin',
