@@ -1,6 +1,5 @@
 import {AnimationRocket} from '../../animationRocket';
 import {ButtonGitHub} from '../../buttonGitHub';
-import {ButtonNavbar} from '../../buttonNavbar';
 import {Logo} from '../../logo';
 import {Navbar} from '../../navbar';
 
@@ -12,10 +11,6 @@ export const Banner = () => {
       <S.NavbarWrapper>
         <Navbar />
       </S.NavbarWrapper>
-
-      <S.ButtonNavbarWrapper>
-        <ButtonNavbar />
-      </S.ButtonNavbarWrapper>
 
       <S.Content>
         <S.InfoContainer>

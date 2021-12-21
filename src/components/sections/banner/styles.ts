@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Container = styled.section`
+export const Container = styled.section.attrs({
+  id: 'banner',
+})`
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,18 +22,6 @@ export const NavbarWrapper = styled.div`
 
   @media (min-width: 1070px) {
     display: flex;
-  }
-`;
-
-export const ButtonNavbarWrapper = styled.div`
-  display: flex;
-  width: 100%;
-  height: 10%;
-  justify-content: flex-end;
-
-  @media (min-width: 1070px) {
-    display: none;
-    height: 0%;
   }
 `;
 
