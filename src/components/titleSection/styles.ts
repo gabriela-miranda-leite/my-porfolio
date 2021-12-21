@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-items: stretch;
-  padding-bottom: 1.5rem;
+  padding-bottom: 3rem;
 
   @media (min-width: 600px) {
-    padding-bottom: 2.5rem;
+    padding-bottom: 5rem;
   }
 `;
 
