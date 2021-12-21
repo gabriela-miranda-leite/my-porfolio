@@ -11,12 +11,19 @@ const animationLine = keyframes`
 `;
 
 export const Container = styled.div`
+  position: fixed;
+  z-index: 2;
+`;
+
+export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: 100vw;
   height: 6rem;
   border-bottom: 1px solid ${({theme}) => theme.colors.second};
+  background: ${({theme}) => theme.colors.background};
 `;
 
 export const List = styled.ul`
@@ -27,6 +34,17 @@ export const List = styled.ul`
     font-size: 1.8rem;
     cursor: pointer;
     position: relative;
+    transition-delay: 0.2s;
+
+    a {
+      text-decoration: none;
+      color: ${({theme}) => theme.colors.text};
+      opacity: 0.7;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
 
     &:hover:after {
       content: '';
