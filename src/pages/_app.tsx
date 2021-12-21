@@ -16,7 +16,7 @@ function MyApp({Component, pageProps}: AppProps) {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="shortcut icon" href="assets/favicon.ico" />
         <title>Gabriela Miranda</title>
         <meta
           name="description"
