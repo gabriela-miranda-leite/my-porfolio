@@ -12,6 +12,10 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
   }
 
+  html {
+  scroll-behavior: smooth;
+}
+
   body {
     background:${({theme}) => theme.colors.background};
     color: ${({theme}) => theme.colors.text};
