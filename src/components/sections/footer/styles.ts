@@ -70,6 +70,7 @@ export const LogoSocial = styled.img`
   height: 5rem;
   width: 5rem;
   opacity: 0.8;
+  transition-delay: 0.2s;
 
   &:hover {
     opacity: 1;
@@ -91,6 +92,7 @@ export const Email = styled.a`
   text-decoration: none;
   color: ${({theme}) => theme.colors.text};
   cursor: pointer;
+  transition-delay: 0.2s;
 
   &:hover {
     filter: brightness(0.8);

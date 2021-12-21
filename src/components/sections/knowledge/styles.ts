@@ -4,7 +4,9 @@ interface InfoLogo {
   indexLogo: number;
 }
 
-export const Container = styled.section`
+export const Container = styled.section.attrs({
+  id: 'knowledge',
+})`
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -64,13 +66,15 @@ export const GridLogos = styled.ul`
 
     li {
       padding: 2rem;
-	    transition: 0.3s ease;
+      transition: 0.3s ease;
+      transition-delay: 0.2s;
 
       &:hover {
         transform: rotateY(180deg);
         opacity: 0.4;
       }
     }
+  }
 `;
 
 export const DesktopWrapper = styled.div`
@@ -101,7 +105,7 @@ export const InfoWrapper = styled.div<InfoLogo>`
   }
 
   p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 400;
   }
 
@@ -113,7 +117,7 @@ export const InfoWrapper = styled.div<InfoLogo>`
     }
 
     p {
-      font-size: 2.2rem;
+      font-size: 2rem;
     }
   }
 
