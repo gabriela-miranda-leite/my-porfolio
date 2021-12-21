@@ -1,10 +1,19 @@
 import type {NextPage} from 'next';
-import {Logo} from '../components/logo';
+
+import {Banner} from '../components/sections/banner';
+import {Footer} from '../components/sections/footer';
+import {Knowledge} from '../components/sections/knowledge';
+import {Projects} from '../components/sections/projects';
+import {WhoIAm} from '../components/sections/whoIAm';
 
 const Pages: NextPage = () => {
   return (
     <>
-      <Logo />
+      <Banner />
+      <WhoIAm />
+      <Knowledge />
+      <Projects />
+      <Footer />
     </>
   );
 };
