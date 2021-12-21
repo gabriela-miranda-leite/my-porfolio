@@ -10,7 +10,9 @@ const animationCloud = keyframes`
   }
 `;
 
-export const Container = styled.section`
+export const Container = styled.section.attrs({
+  id: 'who-i-am',
+})`
   background: ${({theme}) => theme.colors.primary};
   padding: 5rem;
 
@@ -56,14 +58,10 @@ export const Clouds = styled.img`
 `;
 
 export const Text = styled.div`
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 
   @media (min-width: 750px) {
     font-size: 2.2rem;
-  }
-
-  @media (min-width: 1070px) {
-    font-size: 2.4rem;
   }
 `;
 

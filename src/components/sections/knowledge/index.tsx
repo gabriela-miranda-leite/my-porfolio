@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 
-import Slider from 'react-slick';
 import {TitleSection} from '../../titleSection';
+import Slider from 'react-slick';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -89,10 +89,7 @@ export const Knowledge = () => {
             {indexLogo === -1 ? (
               <>
                 <h4>*Selecione o card</h4>
-                <S.KnowledgeImg
-                  src="assets/knowledge.png"
-                  alt="Conhecimentos"
-                />
+                <S.KnowledgeImg src="assets/carousel.png" alt="Conhecimentos" />
               </>
             ) : (
               <p>{dataLogos[indexLogo].text}</p>
