@@ -29,21 +29,32 @@ export const Container = styled.div`
     color: ${({theme}) => theme.colors.textDark};
 
     img {
-      width: 5rem;
-      height: 5rem;
+      width: 3rem;
+      height: 3rem;
       animation: ${animationSun} 4s linear infinite;
     }
   }
   @media (min-width: 600px) {
     padding: 8rem;
+
     p {
       font-size: 2.4rem;
+    }
+
+    img {
+      width: 4rem;
+      height: 4rem;
     }
   }
 
   @media (min-width: 1070px) {
     p {
       font-size: 3.2rem;
+
+      img {
+        width: 5rem;
+        height: 5rem;
+      }
     }
   }
 `;
