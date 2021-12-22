@@ -50,10 +50,6 @@ export const CardProject = styled.div`
     font-family: 'Ubuntu';
   }
 
-  &:hover {
-    transform: scale(1.1);
-  }
-
   @media (min-width: 420px) {
     width: 15rem;
     height: 10rem;
@@ -67,6 +63,11 @@ export const CardProject = styled.div`
   @media (min-width: 750px) {
     p {
       font-size: 1.8rem;
+    }
+  }
+  @media (min-width: 1300px) {
+    &:hover {
+      transform: scale(1.1);
     }
   }
 `;
@@ -127,7 +128,7 @@ export const Content = styled.div<InfoProject>`
     padding: 5rem;
     margin-top: 0rem;
     width: 50rem;
-    height: 50rem;
+    min-height: 50rem;
 
     h4 {
       font-size: 2.2rem;
