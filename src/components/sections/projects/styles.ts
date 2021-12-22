@@ -50,6 +50,10 @@ export const CardProject = styled.div`
     font-family: 'Ubuntu';
   }
 
+  &:hover {
+    transform: scale(1.1);
+  }
+
   @media (min-width: 420px) {
     width: 15rem;
     height: 10rem;
@@ -141,6 +145,13 @@ export const TechImg = styled.img`
   width: 10rem;
   padding-top: 2rem;
 
+  opacity: 0.7;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+
   @media (min-width: 750px) {
     width: 20rem;
     padding-top: 3rem;
@@ -159,9 +170,9 @@ export const GridProjects = styled.ul`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-self: flex-start;
-    gap: 1rem;
+    gap: 2rem;
     list-style: none;
-    padding: 0 1rem;
+    padding-left: 3rem;
 
     li {
       transition: 0.3s ease;
