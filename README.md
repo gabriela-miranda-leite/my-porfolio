@@ -1,4 +1,4 @@
-<div align="center">![Gabriela Miranda](./.github/logo.png)</div>
+<div align="center"><img src="./.github/logo.png" /></div>
 
 # My Portfolio
 #### Portfolio para apresentação dos meus conhecimentos e projetos 🚀
