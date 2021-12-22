@@ -22,12 +22,15 @@ export const Container = styled.div`
 
   p {
     display: flex;
+    align-items: center;
     font-size: 2rem;
     font-weight: 500;
     font-family: 'Ubuntu';
     color: ${({theme}) => theme.colors.textDark};
 
-    strong {
+    img {
+      width: 5rem;
+      height: 5rem;
       animation: ${animationSun} 4s linear infinite;
     }
   }
