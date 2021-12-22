@@ -9,7 +9,6 @@ export const Container = styled.section.attrs({
 })`
   display: flex;
   flex-direction: column;
-  align-items: stretch;
 
   padding: 5rem;
   margin: auto;
@@ -25,10 +24,6 @@ export const Container = styled.section.attrs({
   @media (min-width: 750px) {
     padding: 8rem;
   }
-
-  /* @media (min-width: 1300px) {
-    padding: 8rem 0;
-  } */
 `;
 
 export const Carousel = styled.div`
@@ -113,6 +108,7 @@ export const Content = styled.div<InfoProject>`
       color: ${({theme}) => theme.colors.text};
     }
   }
+
   @media (min-width: 750px) {
     padding: 2rem;
 
@@ -160,10 +156,13 @@ export const GridProjects = styled.ul`
   display: none;
 
   @media (min-width: 1300px) {
-    display: block;
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+
     list-style: none;
-    column-count: 3;
-    padding-left: 1rem;
+    gap: 5rem;
+    padding: 0 5rem;
 
     li {
       transition: 0.3s ease;
