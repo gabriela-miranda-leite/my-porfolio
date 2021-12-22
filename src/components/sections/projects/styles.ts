@@ -156,13 +156,12 @@ export const GridProjects = styled.ul`
   display: none;
 
   @media (min-width: 1300px) {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-self: flex-start;
-    flex-wrap: wrap;
-
+    gap: 1rem;
     list-style: none;
-    gap: 5rem;
-    padding: 0 5rem;
+    padding: 0 1rem;
 
     li {
       transition: 0.3s ease;
