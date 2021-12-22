@@ -143,6 +143,12 @@ export const InfoWrapper = styled.div<InfoLogo>`
 export const KnowledgeImg = styled.img`
   width: 10rem;
   padding-top: 2rem;
+  opacity: 0.7;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
 
   @media (min-width: 750px) {
     width: 20rem;
