@@ -12,7 +12,7 @@ const animationLine = keyframes`
 
 export const Container = styled.div`
   position: fixed;
-  z-index: 2;
+  z-index: 3;
 `;
 
 export const Content = styled.div`
