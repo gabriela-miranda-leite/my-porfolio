@@ -60,13 +60,11 @@ export const CardProject = styled.div`
   }
 
   @media (min-width: 530px) {
-    width: 20rem;
+    width: 18rem;
     height: 12rem;
   }
 
   @media (min-width: 750px) {
-    width: 20rem;
-
     p {
       font-size: 1.8rem;
     }
@@ -172,7 +170,7 @@ export const GridProjects = styled.ul`
     align-self: flex-start;
     gap: 2rem;
     list-style: none;
-    padding-left: 3rem;
+    padding-left: 2rem;
 
     li {
       transition: 0.3s ease;
