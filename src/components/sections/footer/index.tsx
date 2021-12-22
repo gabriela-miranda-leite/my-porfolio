@@ -27,8 +27,7 @@ export const Footer = () => {
   return (
     <S.Container>
       <p>
-        Opa, bom dia! &nbsp;
-        <img src="assets/sun.png" alt="sol" />
+        Opa, bom dia! &nbsp;<strong>☀️</strong>
       </p>
       <S.ListSocial>
         {dataSocial.map((social, index) => (
