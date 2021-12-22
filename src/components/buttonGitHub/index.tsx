@@ -1,8 +1,13 @@
+import Router from 'next/router';
+
 import * as S from './styles';
 
 export const ButtonGitHub = () => {
+  function handleClick() {
+    Router.push('https://github.com/Gabriela-Leite');
+  }
   return (
-    <S.Container>
+    <S.Container onClick={handleClick}>
       <S.Content>
         <img
           src="assets/logos/logo-github-button-banner.png"
