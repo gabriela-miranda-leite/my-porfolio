@@ -28,9 +28,7 @@ export const Container = styled.div`
     font-family: 'Ubuntu';
     color: ${({theme}) => theme.colors.textDark};
 
-    img {
-      width: 3rem;
-      height: 3rem;
+    strong {
       animation: ${animationSun} 4s linear infinite;
     }
   }
@@ -40,21 +38,11 @@ export const Container = styled.div`
     p {
       font-size: 2.4rem;
     }
-
-    img {
-      width: 4rem;
-      height: 4rem;
-    }
   }
 
   @media (min-width: 1070px) {
     p {
       font-size: 3.2rem;
-
-      img {
-        width: 5rem;
-        height: 5rem;
-      }
     }
   }
 `;

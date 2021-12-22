@@ -12,6 +12,8 @@ import * as S from './styles';
 interface DataProject {
   name: string;
   html_url: string;
+  topics: string[];
+  description: string;
 }
 
 export const Projects = () => {
@@ -70,7 +72,22 @@ export const Projects = () => {
               </>
             ) : (
               <>
-                <p>{dataGit[indexProject].name}</p>
+                <p>
+                  <strong>{dataGit[indexProject].name}</strong>
+                  <br />
+                  <br />
+                  {dataGit[indexProject].description}
+                  <br />
+                  <br />
+                  <strong>
+                    🧪 Tecnologias utilizadas
+                    <br />
+                  </strong>
+                  <br />
+                  {dataGit[indexProject].topics.map((e, index) => (
+                    <p key={index}>{e}</p>
+                  ))}
+                </p>
                 <a href={dataGit[indexProject].html_url}>mais informações</a>
               </>
             )}
